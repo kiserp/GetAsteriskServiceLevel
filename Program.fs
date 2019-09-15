@@ -16,9 +16,9 @@ let [<Literal>] configFile = "./app.config"
 let main argv =
     let managerConnection = 
         ManagerConnection(
-            "pbx",
+            "mypbx",
             5038,
-            "statset",
+            "statuser",
             "EinKennwort")
         //  ManagerConnection(Settings.Host,
         //     Settings.Port,
